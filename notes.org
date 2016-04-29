@@ -1,0 +1,40 @@
+* Strand
+
+Google Wave, but better.
+
+** Principles
+
+Google Wave was a brilliant idea, but I think:
+
+   1. If you're using XML, you're wrong.
+   2. If you're using X.509, you're wrong.
+   3. If you're using Java, you're wrong.
+   4. Don't do too much.
+
+Strand is my attempt to see if I'm right, or if I'm wrong.
+
+*** Don't do too much
+
+Google Wave was a protocol, a tool, a suite of tools and a product.  A
+spell-checker shouldn't be part of a protocol or even a tool (although
+spell checkers should be /enabled/ by a tool …).  Wave required a web
+browser — a /modern/ web browser — in order to work.  Contrast with
+email, which can be read & sent with telnet and nothing more.
+
+Shore is a protocol, with a simple sample command-line client.  More
+complex clients can come later.
+
+** Operational transformation
+
+   - retain
+   - insert characters
+   - delete characters
+   - insert list
+   - delete list
+   - replace attributes
+   - update attributes
+   - annotate
+
+** Capabilities
+
+Some waves are encrypted.  It doesn't really
